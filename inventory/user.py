@@ -27,4 +27,3 @@ class User(Base):
     
 user_1 = User(username= "denis", email="denis@example.com", password="password")
 # print(user_1.get_user_by_username("joshua").password)
-
